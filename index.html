@@ -51,7 +51,7 @@
     </style>
   </head>
   <body>
-    <h1>吴昭瑞的个人博客</h1>
+    <h1 id="header">吴昭瑞的个人博客</h1>
     <p>我的名字是吴昭瑞，现年16岁，就读于清澜山学校。</p>
     <p>邮箱：<a href="mailto:20250156@tsinglan.cn">20250156@tsinglan.cn</a></p>
     <p>兴趣爱好：看书、玩机器人。</p>
@@ -62,5 +62,13 @@
       <li>amc12全球荣誉奖</li>
       <li>晋级aime</li>
     </ul>
+    <script>
+      const header = document.getElementById("header");
+      let angle = 0;
+      setInterval(() => {
+        angle += 2;
+        header.style.transform = `rotate(${angle}deg)`;
+      }, 50);
+    </script>
   </body>
 </html>
