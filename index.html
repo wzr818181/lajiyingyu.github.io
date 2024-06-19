@@ -66,6 +66,31 @@
             max-width: 100%;
             height: auto;
         }
+        .poll {
+            margin-top: 20px;
+        }
+        .poll form {
+            background: #f4f4f4;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .poll form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .poll form input[type="radio"] {
+            margin-right: 10px;
+        }
+        .poll form input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            background: #333;
+            color: #fff;
+            border: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
         footer {
             background: #333;
             color: #fff;
@@ -110,6 +135,15 @@
             <p>Ferdinand, equally smitten, spoke about his admiration for Miranda. "She is the most beautiful and gentle soul I have ever encountered," he said. "Meeting her has been the greatest blessing in this time of hardship."</p>
             <p>Their romance has blossomed quickly, with Prospero, Miranda’s father, observing their growing bond. "I have watched them closely," he said. "Their love is pure and true. It brings me great joy to see my daughter so happy."</p>
             <p>As they look towards the future, Miranda and Ferdinand are hopeful that their love will endure beyond the island. "We dream of a life together, free from the shadows of the past," said Ferdinand. "No matter what challenges come our way, I know we will face them together."</p>
+            <div class="poll">
+                <form>
+                    <label>Who Should Rule the Island?</label>
+                    <input type="radio" name="ruler" value="prospero"> Prospero<br>
+                    <input type="radio" name="ruler" value="caliban"> Caliban<br>
+                    <input type="radio" name="ruler" value="miranda-ferdinand"> Miranda & Ferdinand<br>
+                    <input type="submit" value="Vote">
+                </form>
+            </div>
         </div>
     </div>
 
